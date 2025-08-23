@@ -2,20 +2,15 @@
     "manifest_version": 2,
     "minimum_chrome_version": "91",
 
-    "name": "Vencord Web",
-    "description": "The cutest Discord mod now in your browser",
-    "author": "Vendicated",
-    "homepage_url": "https://github.com/Vendicated/Vencord",
+    "name": "Cidercord (Unofficial Vencord)",
+    "description": "쉽게 사이다 api를 사용할 수 있게 해주는 브라우저 확장 프로그램입니다.",
+    "author": "Saintliy",
+    "homepage_url": "https://github.com/giyeoum/UnofficialCiderVencord",
     "icons": {
         "128": "icon.png"
     },
 
-    "permissions": [
-        "webRequest",
-        "webRequestBlocking",
-        "*://*.discord.com/*",
-        "https://raw.githubusercontent.com/*"
-    ],
+    "permissions": ["webRequest", "webRequestBlocking", "*://*.discord.com/*", "https://raw.githubusercontent.com/*"],
 
     "content_scripts": [
         {
